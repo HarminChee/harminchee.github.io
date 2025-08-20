@@ -6,67 +6,36 @@ author_profile: true
 ---
 
 <style>
-/* ---------- Page-local styles (dark-mode friendly) ---------- */
-.pubs {
-  margin-top: .5rem;
-  --text: #1f2937;       /* default text */
-  --muted: #4b5563;      /* secondary text */
-  --border: rgba(0,0,0,.12);
-  --accent: #4f46e5;     /* indigo */
-  --accent-hover: #4338ca;
-  --on-accent: #ffffff;
-}
-@media (prefers-color-scheme: dark) {
-  .pubs {
-    --text: #e5e7eb;
-    --muted: #cbd5e1;
-    --border: rgba(255,255,255,.14);
-    --accent: #a78bfa;       /* lighter indigo for dark */
-    --accent-hover: #c4b5fd;
-    --on-accent: #111827;
-  }
-}
-.pubs .item{
-  padding: .9rem 0;
-  border-bottom: 1px solid var(--border);
-}
+/* ---------- Page-local styles: force high contrast in light mode, nice in dark mode ---------- */
+.pubs { margin-top: .5rem; }
+
+/* LIGHT mode (default) */
+.pubs .pub-title      { margin: 0 0 .25rem 0; line-height: 1.35; font-weight: 700; color: #111 !important; }
+.pubs .pub-authors    { margin-bottom: .15rem; color: #374151 !important; }   /* slate-700 */
+.pubs .pub-venue      { color: #6b7280 !important; font-style: italic; }      /* slate-500 */
+.pubs .item           { padding: .9rem 0; border-bottom: 1px solid rgba(0,0,0,.14); }
 .pubs .item:last-child{ border-bottom: none; }
-.pubs .pub-title{
-  margin: 0 0 .25rem 0;
-  line-height: 1.35;
-  font-weight: 700;
-  color: var(--text);
-}
-.pubs .pub-authors{
-  margin-bottom: .15rem;
-  color: var(--text);          /* use primary color for readability in dark mode */
-}
-.pubs .pub-venue{
-  color: var(--muted);
-  font-style: italic;
+
+/* DARK mode overrides */
+@media (prefers-color-scheme: dark) {
+  .pubs .pub-title   { color: #e5e7eb !important; }  /* slate-200 */
+  .pubs .pub-authors { color: #e5e7eb !important; }
+  .pubs .pub-venue   { color: #cbd5e1 !important; }  /* slate-300 */
+  .pubs .item        { border-bottom: 1px solid rgba(255,255,255,.18); }
 }
 
-/* “paper” pill button (nicer than plain links) */
+/* “paper” pill button */
 .pubs .btn{
-  display: inline-block;
-  padding: .2rem .6rem;
-  border-radius: 9999px;
-  font-size: .9rem;
-  line-height: 1.6;
-  text-decoration: none;
-  transition: background .15s ease, color .15s ease, border-color .15s ease;
+  display:inline-block; padding:.2rem .6rem; border-radius:9999px; font-size:.9rem;
+  line-height:1.6; text-decoration:none; transition:background .15s ease,color .15s ease,border-color .15s ease;
 }
-.pubs .btn-paper{
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  background: transparent;
+.pubs .btn-paper{ color:#4f46e5; border:1px solid #4f46e5; background:transparent; }
+.pubs .btn-paper:hover{ background:#4f46e5; color:#fff; border-color:#4338ca; }
+@media (prefers-color-scheme: dark){
+  .pubs .btn-paper{ color:#a78bfa; border-color:#a78bfa; }
+  .pubs .btn-paper:hover{ background:#a78bfa; color:#111827; border-color:#c4b5fd; }
 }
-.pubs .btn-paper:hover{
-  background: var(--accent);
-  color: var(--on-accent);
-  border-color: var(--accent-hover);
-}
-.pubs .btn + .btn{ margin-left: .35rem; }
+.pubs .btn + .btn{ margin-left:.35rem; }
 </style>
 
 <div class="pubs">
@@ -74,7 +43,7 @@ author_profile: true
   <div class="item">
     <h3 class="pub-title">TopoEdge: An Edge-assisted LLM Framework for Automated SDN Configuration Generation</h3>
     <div class="pub-authors"><strong>Haomin Qi</strong>, Yuyang Du, Ziheng Kang, Yue Zhan, Soung Chang Liew</div>
-    <div class="pub-venue"><em>Under review at IEEE Consumer Communications &amp; Networking Conference 2026 (IEEE CCNC ’26 Poster)</em></div>
+    <div class="pub-venue"><em>Under review at IEEE Consumer Communications &amp; Networking Conference 2026 (CCNC ’26 Poster)</em></div>
   </div>
 
   <div class="item">
