@@ -1,0 +1,16 @@
+/* 让作者头像变为长方形并放大 */
+.author__avatar {
+  width: 200px;              /* 调整整体尺寸；想更大可改为 220/240 */
+  max-width: 100%;
+}
+.author__avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 0 !important;     /* 取消圆角 */
+  box-shadow: none !important;      /* 去掉可能的阴影边框 */
+}
+
+/* 大屏侧边栏下再放大一点（可选） */
+@media (min-width: 64em) {
+  .sidebar .author__avatar { width: 220px; }
+}
