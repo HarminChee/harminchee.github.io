@@ -12,9 +12,6 @@
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}
-    <img src="{{ author.avatar | prepend: site.author.avatar | default: site.author.avatar | prepend: '/images/' | relative_url }}"
-     alt="{{ author.name }}"
-     loading="lazy" decoding="async" width="220" height="auto">
   </div>
 
   <div class="author__content">
