@@ -14,3 +14,25 @@
 @media (min-width: 64em) {
   .sidebar .author__avatar { width: 220px; }
 }
+
+
+/* ===== Global font: Times New Roman (+ CJK serif fallbacks) ===== */
+:root {
+  --serif-stack: "Times New Roman", Times, "Noto Serif CJK SC", "Noto Serif SC",
+                 "Songti SC", "STSong", "SimSun", "PMingLiU", "MingLiU", serif;
+}
+
+/* 正文、标题、导航、侧栏等全部换字体（保留等宽区块不变） */
+html, body,
+.masthead, .site-title, .site-nav, .greedy-nav,
+.sidebar, .page, .page__content,
+h1, h2, h3, h4, h5, h6,
+p, li, dt, dd, blockquote, figcaption, table, th, td, label, input, button {
+  font-family: var(--serif-stack) !important;
+}
+
+/* 保留代码与等宽字体的可读性（不改它们） */
+code, pre, kbd, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+               "Courier New", monospace !important;
+}
