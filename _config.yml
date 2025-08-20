@@ -13,14 +13,11 @@ repository               : "HarminChee/harminchee.github.io"
 author:
   avatar           : "/images/profile.jpg"
   name             : "Haomin (Harmin) Qi"
-  pronouns:
-  # 两行简介（用多行写法）
-  bio: |
-    UC San Diego
-    M.S. Student in ECE
+  pronouns         : "UC San Diego"
+  bio              : "M.S. Student in ECE"
   location         : "San Diego, CA, USA"
-  employer         : "University of California, San Diego"
-  uri              :
+  employer         : 
+  uri             :
   email            : "h5qi@ucsd.edu"
 
   # Academic websites
