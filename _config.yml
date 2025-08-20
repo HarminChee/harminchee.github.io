@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # "default" or "air"
-title                    : "Harmin(Haomin) Qi"
+title                    : "Harmin's Homepage"
 title_separator          : "-"
 name                     : &name "Harmin(Haomin) Qi"
 description              : &description "M.S. student @ UC San Diego | Deep Learning, Computer Vision, LLMs"
@@ -12,21 +12,24 @@ repository               : "HarminChee/harminchee.github.io"
 # Site Author
 author:
   avatar           : "profile.png"
-  name             : "Harmin(Haomin) Qi"
-  pronouns         : "he/him"
-  bio              : "M.S. student in Electrical and Computer Engineering @ UC San Diego. Research in deep learning, computer vision, LLMs, multimodal AI, and ML for systems."
+  name             : "Haomin (Harmin) Qi"
+  pronouns:
+  # 两行简介（用多行写法）
+  bio: |
+    UC San Diego
+    M.S. Student in ECE
   location         : "San Diego, CA, USA"
   employer         : "University of California, San Diego"
   uri              :
-  email            : "your_email@example.com"
+  email            : "h5qi@ucsd.edu"
 
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   inspire-hep      :
   impactstory      :
-  orcid            : "https://orcid.org/0000-0000-0000-0000"  # 替换成你的 ORCID
+  orcid            : "https://orcid.org/0009-0008-5383-825X"
   semantic         :
   pubmed           :
   researchgate     :
@@ -36,7 +39,7 @@ author:
   github           : "HarminChee"
 
   # Social media
-  linkedin         : "your-linkedin-username"
+  linkedin         : "harminchee"
   bluesky          :
   twitter          :
   zhihu            :
