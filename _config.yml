@@ -11,7 +11,7 @@ repository               : "HarminChee/harminchee.github.io"
 
 # Site Author
 author:
-  avatar           : "profile.png"
+  avatar           : "/images/profile.jpg"
   name             : "Haomin (Harmin) Qi"
   pronouns:
   # 两行简介（用多行写法）
