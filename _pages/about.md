@@ -63,7 +63,15 @@ redirect_from:
 I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). ...
 
 ## Research Interests
-... （省略）
+My research focuses on large language and vision-language models (LLMs/VLMs) and machine learning (ML) for systems. 
+
+- Accelerated inference and generation for LLMs and multimodal models: efficient decoding (e.g., speculative and batched decoding), KV-cache management, quantization and distillation, routing/MoE scheduling, and systems-level optimizations that improve end-to-end latency–throughput–quality trade-offs under practical constraints.
+
+- Multimodal reasoning and efficient perception with vision-language models: robust grounding and alignment, retrieval-augmented perception, parameter-efficient adaptation for resource-limited settings, and evaluation protocols that stress long-context understanding and cross-modal consistency.
+
+- Machine learning for systems: leveraging ML to improve the correctness, efficiency, and automation of computing infrastructures. This includes areas such as network intelligence and topology-aware optimization, AI agents for managing complex system pipelines, and LLM-driven design automation in domains like electronic design automation (EDA).
+
+I am also interested in applications of LLMs in education, engineering, and scientific discovery.
 
 ## Selected Work
 
