@@ -47,7 +47,6 @@ author_profile: true
 </div>
 
 
-
 <p>I usually share photography and daily life on Instagram — feel free to follow!</p>
 <div class="follow-row">
   <a class="follow-btn" href="https://www.instagram.com/harminchee/" target="_blank" rel="noopener">Follow @harminchee</a>
