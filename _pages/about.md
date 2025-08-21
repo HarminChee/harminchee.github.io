@@ -53,15 +53,15 @@ redirect_from:
 </style>
 
 
-I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). I received my B.S. in [Mathematics and Information Engineering](https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html). During my undergraduate time, I worked as a research assistant in CUHK’s [Advanced Wireless Systems Group](https://wireless.ie.cuhk.edu.hk/) under the guidance of [Prof. Soung Chang Liew](https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/) and [Dr. Yuyang Du](https://yuyangdu01.github.io/), conducting research in Generative AI and AI for Network. I also collaborated with [Prof. Rosanna Yuen-Yan Chan](https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/) for my undergraduate dissertation research. Prior to that, I worked with [Prof. Min-Te (Peter) Sun](https://wasn.csie.ncu.edu.tw/advisor) at National Central University and [Prof. Jun-Wei Hsieh](https://aicvlab2019.wordpress.com/) at National Yang Ming Chiao Tung University, Taiwan. In industry, I served as a Machine Learning Application Intern at Deloitte Hong Kong and as Operations Director at Intell-Pro Global, an AI startup that received significant investment from HK CityU Tech300 Entrepreneurship program and TSSSU award.
+I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). I received my B.S. in [Mathematics and Information Engineering](https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/) from [the Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html) in July 2025. I also did an exchange at [the University of Leeds](https://www.leeds.ac.uk/) in the UK in the spring of 2024, where I studied at both the [School of Computer Science](https://eps.leeds.ac.uk/computing) and the [School of Mathematics](https://eps.leeds.ac.uk/maths), achieving a GPA of 4.0/4.0. During my undergraduate time, I worked as a research assistant in CUHK’s [Advanced Wireless Systems Group](https://wireless.ie.cuhk.edu.hk/) under the guidance of [Prof. Soung Chang Liew](https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/) and [Dr. Yuyang Du](https://yuyangdu01.github.io/), conducting research in Generative AI and AI for Networks. I also collaborated with [Prof. Rosanna Yuen-Yan Chan](https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/) for my undergraduate dissertation research. Prior to that, I worked with [Prof. Min-Te (Peter) Sun](https://wasn.csie.ncu.edu.tw/advisor) at National Central University and [Prof. Jun-Wei Hsieh](https://aicvlab2019.wordpress.com/) at National Yang Ming Chiao Tung University, Taiwan. In industry, I served as a Machine Learning Application Intern at Deloitte Hong Kong and as Operations Director at Intell-Pro Global, an AI startup that received significant investment from [HK CityU Tech300 Entrepreneurship program](https://www.cityu.edu.hk/hktech300/) and [TSSSU award](https://www.orkts.cuhk.edu.hk/en/knowledge-transfer/funding-support-incubation-program/tsssu,-tsssu-cuhk).
 
 ## Research Interests
 
 My research focuses on large language and vision-language models (LLMs/VLMs) and machine learning (ML) for systems. 
 
-- Accelerated inference and generation for LLMs and multimodal models: efficient decoding (e.g., speculative and batched decoding), KV-cache management, quantization and distillation, routing/MoE scheduling, and systems-level optimizations that improve end-to-end latency–throughput–quality trade-offs under practical constraints.
+- Accelerated inference and generation for LLMs and VLMs: efficient decoding (e.g., speculative and batched decoding), KV-cache management, quantization and distillation, routing/MoE scheduling, and systems-level optimizations that improve end-to-end latency–throughput–quality trade-offs under practical constraints.
 
-- Multimodal reasoning and efficient perception with vision-language models: robust grounding and alignment, retrieval-augmented perception, parameter-efficient adaptation for resource-limited settings, and evaluation protocols that stress long-context understanding and cross-modal consistency.
+- Multimodal reasoning and efficient perception: robust grounding and alignment, retrieval-augmented perception, parameter-efficient adaptation for resource-limited settings, and evaluation protocols that stress long-context understanding and cross-modal consistency.
 
 - Machine learning for systems: leveraging ML to improve the correctness, efficiency, and automation of computing infrastructures. This includes areas such as network intelligence and topology-aware optimization, AI agents for managing complex system pipelines, and LLM-driven design automation in domains like electronic design automation (EDA).
 
@@ -101,6 +101,5 @@ I am also interested in applications of LLMs in education, engineering, and scie
     </div>
   </div>
 
----
 
 </div>
