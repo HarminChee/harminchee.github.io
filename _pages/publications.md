@@ -12,9 +12,9 @@ author_profile: true
 ---
 
 ### VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair
-**Haomin Qi**, Yuyang Du, Soung Chang Liew, Kexin Chen, Yining Du  
+**Haomin Qi**, Yuyang Du, Lihao Zhang, Soung Chang Liew, Kexin Chen, Yining Du  
 *Under review at the 40th Annual AAAI Conference on Artificial Intelligence (AAAI ’26)*  
-[paper ↗](https://arxiv.org/abs/2507.15664){: .btn .btn--primary .btn--small }
+[paper ↗](https://arxiv.org/abs/2507.15664){: .btn .btn--info .btn--small }
 
 ---
 
@@ -28,4 +28,5 @@ author_profile: true
 ### Hybrid and Unitary Fine-Tuning of LLMs: Methods and Benchmarking under Resource Constraints
 **Haomin Qi**, Zihan Dai, Chengbo Huang  
 *The Advances in Distributed Computing and Artificial Intelligence Journal (ADCAIJ)*  
-[paper ↗](https://arxiv.org/abs/2507.18076){: .btn .btn--primary .btn--small }
+[paper ↗](https://arxiv.org/abs/2507.18076){: .btn .btn--info .btn--small }
+
