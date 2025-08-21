@@ -43,16 +43,15 @@ author_profile: true
 ## Beyond Research
 
 <div class="misc-intro">
-<p>Outside research, I enjoy <strong>photography</strong>, <strong>fitness</strong>, <strong>classical painting</strong>, <strong>skiing</strong>, <strong>backpacking</strong>, and <strong>cycling</strong>.</p>
-<p>I share photography and daily life on Instagram — feel free to follow !!!.</p>
+<p>Outside research, I enjoy <strong>photography</strong>, <strong>fitness</strong>, <strong>classical painting</strong>, <strong>skiing</strong>, <strong>heavy-loaded hiking</strong>, and <strong>cycling</strong>.</p>
+
+---
+
+<p>I usually share photography and daily life on Instagram — feel free to follow!</p>
 <div class="follow-row">
   <a class="follow-btn" href="https://www.instagram.com/harminchee/" target="_blank" rel="noopener">Follow @harminchee</a>
 </div>
 </div>
-
----
-
-## Instagram
 
 <div class="ig-post">
   <!-- 将下面的 permalink 换成你任意一条帖子链接（形式： https://www.instagram.com/p/POST_ID/ 或 /reel/REEL_ID/ ） -->
@@ -64,7 +63,6 @@ author_profile: true
 </div>
 <script async src="https://www.instagram.com/embed.js"></script>
 
-<div class="ig-note">Tip: paste any of your post links into the embed above and it will render automatically.</div>
 
 
 
