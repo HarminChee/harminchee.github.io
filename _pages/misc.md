@@ -68,20 +68,19 @@ author_profile: true
 
 ---
 
-## Instagram (recommended: your live grid)
+## Instagram (live grid from @harminchee)
 
 <div class="ig-grid">
-  <!-- ✅ 将下行 src 替换为你在 SnapWidget 或 LightWidget 生成的 iframe 链接即可立即显示你的账号网格 -->
-  <iframe src="https://snapwidget.com/embed/XXXXXXXX"
-          title="Instagram feed of @harminchee"
-          style="border:0; width:100%; height: 620px;"
-          scrolling="no" allowtransparency="true" loading="lazy"></iframe>
+  <!-- ✅ LightWidget WIDGET -->
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+  <iframe src="//lightwidget.com/widgets/88255f5547bc50458331f760b21a6fc7.html"
+          scrolling="no"
+          allowtransparency="true"
+          class="lightwidget-widget"
+          style="width:100%;border:0;overflow:hidden; height:620px;"
+          title="Instagram feed of @harminchee"></iframe>
 </div>
 
 <div class="ig-note">
-How to get the iframe URL (takes ~30s): Go to
-<a href="https://snapwidget.com/" target="_blank" rel="noopener">SnapWidget</a>
-or <a href="https://lightwidget.com/" target="_blank" rel="noopener">LightWidget</a>,
-create a free widget for username <code>harminchee</code>, copy the iframe <code>src</code> and replace the <code>XXXXXXXX</code> above.
-New posts will show automatically in the grid.
+This grid auto-syncs with my Instagram feed (@harminchee). New posts appear here automatically. Welcome to follow and connect!
 </div>
