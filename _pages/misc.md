@@ -52,8 +52,8 @@ author_profile: true
 
 <!-- 照片滑动栏 -->
 <div class="photo-slider">
-  <img src="/images/1.jpg" alt="photo 1">
-  <img src="/images/2.jpg" alt="photo 2">
+  <img src="/images/1.1.jpg" alt="photo 1">
+  <img src="/images/2.1.jpg" alt="photo 2">
   <img src="/images/3.jpg" alt="photo 3">
   <img src="/images/4.jpg" alt="photo 4">
   <img src="/images/5.jpg" alt="photo 5">
