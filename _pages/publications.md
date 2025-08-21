@@ -20,7 +20,7 @@ author_profile: true
 
 ### Transforming ABA Therapy: An IoT-Guided, Retrieval-Augmented LLM Framework
 **Haomin Qi**, Chung-Ho Sin, Rosanna Yuen-Yan Chan, Victor Chun-Man Wong  
-*IEEE Access Journal (2025-30591)*  
+*IEEE Access Journal DOI：10.1109/ACCESS.2025.3600316*  
 [paper ↗](/files/ABA-RAG.pdf){: .btn .btn--info .btn--small }
 
 ---
