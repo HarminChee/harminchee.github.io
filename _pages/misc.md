@@ -44,8 +44,9 @@ author_profile: true
 
 <div class="misc-intro">
 <p>Outside research, I enjoy <strong>photography</strong>, <strong>fitness</strong>, <strong>classical painting</strong>, <strong>skiing</strong>, <strong>heavy-loaded hiking</strong>, and <strong>cycling</strong>.</p>
+</div>
 
----
+
 
 <p>I usually share photography and daily life on Instagram — feel free to follow!</p>
 <div class="follow-row">
@@ -54,12 +55,11 @@ author_profile: true
 </div>
 
 <div class="ig-post">
-  <!-- 将下面的 permalink 换成你任意一条帖子链接（形式： https://www.instagram.com/p/POST_ID/ 或 /reel/REEL_ID/ ） -->
   <blockquote class="instagram-media"
               data-instgrm-permalink="https://www.instagram.com/p/DHLoA_spOzS/?img_index=1"
               data-instgrm-version="14"
               style="background:#fff; border:0; border-radius:12px; box-shadow:0 0 0 1px rgba(0,0,0,.1),0 1px 10px rgba(0,0,0,.1);
-                     margin:0 auto; max-width:540px; width:100%;"></blockquote>
+                     margin:0; max-width:540px; width:100%;"></blockquote>
 </div>
 <script async src="https://www.instagram.com/embed.js"></script>
 
