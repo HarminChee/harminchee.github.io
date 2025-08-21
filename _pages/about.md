@@ -10,7 +10,7 @@ redirect_from:
 
 <!-- Page-local styles -->
 <style>
-/* 链接无下划线，蓝色 */
+/* 全文链接：无下划线、蓝色（暗色自动变浅蓝） */
 .page__content a { text-decoration: none !important; }
 .page__content a { color: #2563eb !important; }
 .page__content a:hover { color: #1d4ed8 !important; }
@@ -19,50 +19,44 @@ redirect_from:
   .page__content a:hover { color: #bfdbfe !important; }
 }
 
-/* Selected Work */
+/* Selected Work 布局与排版 */
 .work-list { display: flex; flex-direction: column; gap: 1.25rem; margin-top: .75rem; }
 .work-item  { display: flex; gap: 1rem; align-items: flex-start; padding: .75rem 0; border-bottom: 1px solid rgba(0,0,0,.08); }
 .work-item:last-child { border-bottom: none; }
 .work-thumb { width: 220px; max-width: 40vw; border-radius: .5rem; overflow: hidden; flex-shrink: 0; }
 .work-thumb img { width: 100%; height: auto; display: block; }
+
 .work-meta h3 { margin: 0 0 .35rem 0; line-height: 1.35; font-weight: 700; }
-.work-authors { margin: 0 0 .3rem 0; font-size: 0.9rem; color: #374151; }
+/* 作者行：与标题同色，不用灰色；略小一号以区分层级 */
+.work-authors { margin: 0 0 .3rem 0; font-size: 0.95rem; color: inherit; }
 @media (prefers-color-scheme: dark){
-  .work-authors { color: #d1d5db; }
-  .work-venue { color: #cbd5e1; }
+  .work-authors { color: inherit; } /* 明确继承，确保与标题同色 */
 }
 
-/* 通用按钮基础 */
-.work-actions .btn { margin-right: .4rem; border-radius: 9999px; padding: .25rem .7rem; font-size: .85rem; text-decoration: none; font-weight: 500; display:inline-block; }
+/* 通用按钮基础（填充色 + 白字） */
+.work-actions .btn {
+  margin-right: .4rem; border-radius: 9999px; padding: .35rem .8rem;
+  font-size: .88rem; text-decoration: none; font-weight: 600; display:inline-block;
+  line-height: 1.2; color: #fff !important; border: 1px solid transparent;
+}
 .work-actions .btn:last-child { margin-right: 0; }
 
-/* 自定义按钮颜色 */
-.btn-arxiv {
-  color: #dc2626 !important; border: 1px solid #dc2626 !important; background: transparent !important;
-}
-.btn-arxiv:hover {
-  background: #dc2626 !important; color: #fff !important;
-}
+/* 三类按钮的填充色 */
+.btn-arxiv { background: #dc2626 !important; border-color: #dc2626 !important; }   /* red-600 */
+.btn-ieee  { background: #2563eb !important; border-color: #2563eb !important; }  /* blue-600 */
+.btn-github{ background: #111 !important;    border-color: #111 !important; }     /* near-black */
 
-.btn-ieee {
-  color: #2563eb !important; border: 1px solid #2563eb !important; background: transparent !important;
-}
-.btn-ieee:hover {
-  background: #2563eb !important; color: #fff !important;
-}
-
-.btn-github {
-  color: #111 !important; border: 1px solid #111 !important; background: transparent !important;
-}
-.btn-github:hover {
-  background: #111 !important; color: #fff !important;
-}
+/* hover 略微提亮 */
+.btn-arxiv:hover { background: #b91c1c !important; border-color: #b91c1c !important; }
+.btn-ieee:hover  { background: #1d4ed8 !important; border-color: #1d4ed8 !important; }
+.btn-github:hover{ background: #000 !important;    border-color: #000 !important; }
 </style>
 
 
-I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). ...
+I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). I received my B.S. in [Mathematics and Information Engineering](https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html). During my undergraduate time, I worked as a research assistant in CUHK’s [Advanced Wireless Systems Group](https://wireless.ie.cuhk.edu.hk/) under the guidance of [Prof. Soung Chang Liew](https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/) and [Dr. Yuyang Du](https://yuyangdu01.github.io/), conducting research in Generative AI and AI for Network. I also collaborated with [Prof. Rosanna Yuen-Yan Chan](https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/) for my undergraduate dissertation research. Prior to that, I worked with [Prof. Min-Te (Peter) Sun](https://wasn.csie.ncu.edu.tw/advisor) at National Central University and [Prof. Jun-Wei Hsieh](https://aicvlab2019.wordpress.com/) at National Yang Ming Chiao Tung University, Taiwan. In industry, I served as a Machine Learning Application Intern at Deloitte Hong Kong and as Operations Director at Intell-Pro Global, an AI startup that received significant investment from HK CityU Tech300 Entrepreneurship program and TSSSU award.
 
 ## Research Interests
+
 My research focuses on large language and vision-language models (LLMs/VLMs) and machine learning (ML) for systems. 
 
 - Accelerated inference and generation for LLMs and multimodal models: efficient decoding (e.g., speculative and batched decoding), KV-cache management, quantization and distillation, routing/MoE scheduling, and systems-level optimizations that improve end-to-end latency–throughput–quality trade-offs under practical constraints.
