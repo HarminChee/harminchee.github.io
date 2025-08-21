@@ -8,7 +8,65 @@ redirect_from:
   - /about.html
 ---
 
-I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). I received a B.S. in [Mathematics and Information Engineering](https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html). During my undergraduate time, I worked as a research assistant in CUHK’s [Advanced Wireless Systems Group](https://wireless.ie.cuhk.edu.hk/) under the guidance of [Prof. Soung Chang Liew](https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/) and [Dr. Yuyang Du](https://yuyangdu01.github.io/), conducting research in generative AI and AI for Network. I also collaborated with [Prof. Rosanna Yuen-Yan Chan](https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/) for my undergraduate dissertation research. Prior to that, I also worked with [Prof. Min-Te (Peter) Sun](https://wasn.csie.ncu.edu.tw/advisor) at National Central University, Taiwan. In industry, I served as a Machine Learning Application Intern at Deloitte Hong Kong.
+<!-- Page-local styles -->
+<style>
+/* 链接无下划线，蓝色 */
+.page__content a { text-decoration: none !important; }
+.page__content a { color: #2563eb !important; }
+.page__content a:hover { color: #1d4ed8 !important; }
+@media (prefers-color-scheme: dark){
+  .page__content a { color: #93c5fd !important; }
+  .page__content a:hover { color: #bfdbfe !important; }
+}
+
+/* Selected Work */
+.work-list { display: flex; flex-direction: column; gap: 1.25rem; margin-top: .75rem; }
+.work-item  { display: flex; gap: 1rem; align-items: flex-start; padding: .75rem 0; border-bottom: 1px solid rgba(0,0,0,.08); }
+.work-item:last-child { border-bottom: none; }
+.work-thumb { width: 220px; max-width: 40vw; border-radius: .5rem; overflow: hidden; flex-shrink: 0; }
+.work-thumb img { width: 100%; height: auto; display: block; }
+.work-meta h3 { margin: 0 0 .35rem 0; line-height: 1.35; font-weight: 700; }
+.work-authors { margin: 0 0 .2rem 0; }
+.work-venue   { margin: 0 0 .35rem 0; font-style: italic; color: #4b5563; }
+@media (prefers-color-scheme: dark){
+  .work-venue { color: #cbd5e1; }
+}
+
+/* 通用按钮基础 */
+.work-actions .btn { margin-right: .4rem; border-radius: 9999px; padding: .2rem .6rem; font-size: .85rem; }
+.work-actions .btn:last-child { margin-right: 0; }
+
+/* 自定义按钮颜色 */
+.btn-arxiv {
+  color: #dc2626 !important;  /* red-600 */
+  border: 1px solid #dc2626 !important;
+  background: transparent !important;
+}
+.btn-arxiv:hover {
+  background: #dc2626 !important; color: #fff !important;
+}
+
+.btn-ieee {
+  color: #2563eb !important;  /* blue-600 */
+  border: 1px solid #2563eb !important;
+  background: transparent !important;
+}
+.btn-ieee:hover {
+  background: #2563eb !important; color: #fff !important;
+}
+
+.btn-github {
+  color: #111 !important;
+  border: 1px solid #111 !important;
+  background: transparent !important;
+}
+.btn-github:hover {
+  background: #111 !important; color: #fff !important;
+}
+</style>
+
+
+I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). I received my B.S. in [Mathematics and Information Engineering](https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html). During my undergraduate time, I worked as a research assistant in CUHK’s [Advanced Wireless Systems Group](https://wireless.ie.cuhk.edu.hk/) under the guidance of [Prof. Soung Chang Liew](https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/) and [Dr. Yuyang Du](https://yuyangdu01.github.io/), conducting research in Generative AI and AI for Network. I also collaborated with [Prof. Rosanna Yuen-Yan Chan](https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/) for my undergraduate dissertation research. Prior to that, I worked with [Prof. Min-Te (Peter) Sun](https://wasn.csie.ncu.edu.tw/advisor) at National Central University and [Prof. Jun-Wei Hsieh](https://aicvlab2019.wordpress.com/) at National Yang Ming Chiao Tung University, Taiwan. In industry, I served as a Machine Learning Application Intern at Deloitte Hong Kong and as Operations Director at Intell-Pro Global, an AI startup that received significant investment from HK CityU Tech300 Entrepreneurship program and TSSSU award.
 
 ## Research Interests
 
@@ -19,3 +77,39 @@ My research focuses on large language and vision-language models (LLMs/VLMs) and
 - Machine learning for systems: leveraging ML to improve the correctness, efficiency, and automation of computing infrastructures. This includes areas such as network intelligence and topology-aware optimization, AI agents for managing complex system pipelines, and LLM-driven design automation in domains like electronic design automation (EDA). 
 
 I am also interested in applications of LLMs in education, engineering, and scientific discovery.
+
+## Selected Work
+
+<div class="work-list">
+
+  <!--  VeriRAG -->
+  <div class="work-item">
+    <div class="work-thumb">
+      <img src="/images/verirag.jpg" alt="VeriRAG teaser">
+    </div>
+    <div class="work-meta">
+      <h3>VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair</h3>
+      <div class="work-authors"><strong>Haomin Qi</strong>, Yuyang Du, Lihao Zhang, Soung Chang Liew, Kexin Chen, Yining Du</div>
+      <div class="work-actions">
+        [ArXiv](https://arxiv.org/abs/2507.15664){: .btn .btn-arxiv .btn--small } [GitHub](https://github.com/yuyangdu01/LLM4DFT){: .btn .btn-github .btn--small }
+      </div>
+    </div>
+  </div>
+
+  <!-- ABA-RAG -->
+  <div class="work-item">
+    <div class="work-thumb">
+      <img src="/images/aba-rag.jpg" alt="ABA-RAG teaser">
+    </div>
+    <div class="work-meta">
+      <h3>Transforming ABA Therapy: An IoT-Guided, Retrieval-Augmented LLM Framework</h3>
+      <div class="work-authors"><strong>Haomin Qi</strong>, Chung-Ho Sin, Rosanna Yuen-Yan Chan, Victor Chun-Man Wong</div>
+      <div class="work-actions">
+        [IEEE Xplore](https://ieeexplore.ieee.org/document/11129621){: .btn .btn-ieee .btn--small } [GitHub](https://github.com/1314spb/IoT-RAG-ABA){: .btn .btn-github .btn--small }
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
