@@ -40,11 +40,11 @@ author_profile: true
 .ig-post { margin-top: .75rem; max-width: 540px; margin-left:auto; margin-right:auto; }
 </style>
 
-## Beyond research
+## Beyond Research
 
 <div class="misc-intro">
 <p>Outside research, I enjoy <strong>photography</strong>, <strong>fitness</strong>, <strong>classical painting</strong>, <strong>skiing</strong>, <strong>backpacking</strong>, and <strong>cycling</strong>.</p>
-<p>I occasionally share photos and short clips on Instagram — feel free to follow <a href="https://www.instagram.com/harminchee/" target="_blank" rel="noopener">@harminchee</a>.</p>
+<p>I share photography and daily life on Instagram — feel free to follow !!!.</p>
 <div class="follow-row">
   <a class="follow-btn" href="https://www.instagram.com/harminchee/" target="_blank" rel="noopener">Follow @harminchee</a>
 </div>
@@ -52,7 +52,7 @@ author_profile: true
 
 ---
 
-## Instagram (works now: single post)
+## Instagram
 
 <div class="ig-post">
   <!-- 将下面的 permalink 换成你任意一条帖子链接（形式： https://www.instagram.com/p/POST_ID/ 或 /reel/REEL_ID/ ） -->
@@ -66,21 +66,5 @@ author_profile: true
 
 <div class="ig-note">Tip: paste any of your post links into the embed above and it will render automatically.</div>
 
----
 
-## Instagram (live grid from @harminchee)
 
-<div class="ig-grid">
-  <!-- ✅ LightWidget WIDGET -->
-  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-  <iframe src="//lightwidget.com/widgets/88255f5547bc50458331f760b21a6fc7.html"
-          scrolling="no"
-          allowtransparency="true"
-          class="lightwidget-widget"
-          style="width:100%;border:0;overflow:hidden; height:620px;"
-          title="Instagram feed of @harminchee"></iframe>
-</div>
-
-<div class="ig-note">
-This grid auto-syncs with my Instagram feed (@harminchee). New posts appear here automatically. Welcome to follow and connect!
-</div>
