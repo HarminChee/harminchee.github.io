@@ -8,5 +8,5 @@ main:
     url: /publications/
   - title: "CV"
     url: /files/CV.pdf   # 直接指向 PDF
-  - title: "Personal"
-    url: /personal/
+  - title: "Misc."
+    url: /misc/
