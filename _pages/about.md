@@ -26,39 +26,33 @@ redirect_from:
 .work-thumb { width: 220px; max-width: 40vw; border-radius: .5rem; overflow: hidden; flex-shrink: 0; }
 .work-thumb img { width: 100%; height: auto; display: block; }
 .work-meta h3 { margin: 0 0 .35rem 0; line-height: 1.35; font-weight: 700; }
-.work-authors { margin: 0 0 .2rem 0; }
-.work-venue   { margin: 0 0 .35rem 0; font-style: italic; color: #4b5563; }
+.work-authors { margin: 0 0 .3rem 0; font-size: 0.9rem; color: #374151; }
 @media (prefers-color-scheme: dark){
+  .work-authors { color: #d1d5db; }
   .work-venue { color: #cbd5e1; }
 }
 
 /* 通用按钮基础 */
-.work-actions .btn { margin-right: .4rem; border-radius: 9999px; padding: .2rem .6rem; font-size: .85rem; }
+.work-actions .btn { margin-right: .4rem; border-radius: 9999px; padding: .25rem .7rem; font-size: .85rem; text-decoration: none; font-weight: 500; display:inline-block; }
 .work-actions .btn:last-child { margin-right: 0; }
 
 /* 自定义按钮颜色 */
 .btn-arxiv {
-  color: #dc2626 !important;  /* red-600 */
-  border: 1px solid #dc2626 !important;
-  background: transparent !important;
+  color: #dc2626 !important; border: 1px solid #dc2626 !important; background: transparent !important;
 }
 .btn-arxiv:hover {
   background: #dc2626 !important; color: #fff !important;
 }
 
 .btn-ieee {
-  color: #2563eb !important;  /* blue-600 */
-  border: 1px solid #2563eb !important;
-  background: transparent !important;
+  color: #2563eb !important; border: 1px solid #2563eb !important; background: transparent !important;
 }
 .btn-ieee:hover {
   background: #2563eb !important; color: #fff !important;
 }
 
 .btn-github {
-  color: #111 !important;
-  border: 1px solid #111 !important;
-  background: transparent !important;
+  color: #111 !important; border: 1px solid #111 !important; background: transparent !important;
 }
 .btn-github:hover {
   background: #111 !important; color: #fff !important;
@@ -66,23 +60,16 @@ redirect_from:
 </style>
 
 
-I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). I received my B.S. in [Mathematics and Information Engineering](https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/) from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/chinese/index.html). During my undergraduate time, I worked as a research assistant in CUHK’s [Advanced Wireless Systems Group](https://wireless.ie.cuhk.edu.hk/) under the guidance of [Prof. Soung Chang Liew](https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/) and [Dr. Yuyang Du](https://yuyangdu01.github.io/), conducting research in Generative AI and AI for Network. I also collaborated with [Prof. Rosanna Yuen-Yan Chan](https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/) for my undergraduate dissertation research. Prior to that, I worked with [Prof. Min-Te (Peter) Sun](https://wasn.csie.ncu.edu.tw/advisor) at National Central University and [Prof. Jun-Wei Hsieh](https://aicvlab2019.wordpress.com/) at National Yang Ming Chiao Tung University, Taiwan. In industry, I served as a Machine Learning Application Intern at Deloitte Hong Kong and as Operations Director at Intell-Pro Global, an AI startup that received significant investment from HK CityU Tech300 Entrepreneurship program and TSSSU award.
+I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.edu/) at [UC San Diego](https://ucsd.edu/). ...
 
 ## Research Interests
-
-My research focuses on large language and vision-language models (LLMs/VLMs) and machine learning (ML) for systems.
-
-- Accelerated inference and generation for LLMs and multimodal models: efficient decoding (e.g., speculative and batched decoding), KV-cache management, quantization and distillation, routing/MoE scheduling, and systems-level optimizations that improve end-to-end latency–throughput–quality trade-offs under practical constraints.
-- Multimodal reasoning and efficient perception with vision-language models: robust grounding and alignment, retrieval-augmented perception, parameter-efficient adaptation for resource-limited settings, and evaluation protocols that stress long-context understanding and cross-modal consistency.
-- Machine learning for systems: leveraging ML to improve the correctness, efficiency, and automation of computing infrastructures. This includes areas such as network intelligence and topology-aware optimization, AI agents for managing complex system pipelines, and LLM-driven design automation in domains like electronic design automation (EDA). 
-
-I am also interested in applications of LLMs in education, engineering, and scientific discovery.
+... （省略）
 
 ## Selected Work
 
 <div class="work-list">
 
-  <!--  VeriRAG -->
+  <!-- VeriRAG -->
   <div class="work-item">
     <div class="work-thumb">
       <img src="/images/verirag.jpg" alt="VeriRAG teaser">
@@ -91,7 +78,8 @@ I am also interested in applications of LLMs in education, engineering, and scie
       <h3>VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair</h3>
       <div class="work-authors"><strong>Haomin Qi</strong>, Yuyang Du, Lihao Zhang, Soung Chang Liew, Kexin Chen, Yining Du</div>
       <div class="work-actions">
-        [ArXiv](https://arxiv.org/abs/2507.15664){: .btn .btn-arxiv .btn--small } [GitHub](https://github.com/yuyangdu01/LLM4DFT){: .btn .btn-github .btn--small }
+        <a href="https://arxiv.org/abs/2507.15664" class="btn btn-arxiv" target="_blank" rel="noopener">ArXiv</a>
+        <a href="https://github.com/yuyangdu01/LLM4DFT" class="btn btn-github" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </div>
@@ -105,11 +93,10 @@ I am also interested in applications of LLMs in education, engineering, and scie
       <h3>Transforming ABA Therapy: An IoT-Guided, Retrieval-Augmented LLM Framework</h3>
       <div class="work-authors"><strong>Haomin Qi</strong>, Chung-Ho Sin, Rosanna Yuen-Yan Chan, Victor Chun-Man Wong</div>
       <div class="work-actions">
-        [IEEE Xplore](https://ieeexplore.ieee.org/document/11129621){: .btn .btn-ieee .btn--small } [GitHub](https://github.com/1314spb/IoT-RAG-ABA){: .btn .btn-github .btn--small }
+        <a href="https://ieeexplore.ieee.org/document/11129621" class="btn btn-ieee" target="_blank" rel="noopener">IEEE Xplore</a>
+        <a href="https://github.com/1314spb/IoT-RAG-ABA" class="btn btn-github" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </div>
-
-
 
 </div>
