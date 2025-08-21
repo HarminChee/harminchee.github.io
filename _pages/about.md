@@ -74,11 +74,11 @@ I am also interested in applications of LLMs in education, engineering, and scie
   <!-- VeriRAG -->
   <div class="work-item">
     <div class="work-thumb">
-      <img src="/images/verirag.jpg" alt="VeriRAG teaser">
+      <img src="/images/1.jpg" alt="VeriRAG teaser">
     </div>
     <div class="work-meta">
       <h3>VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair</h3>
-      <div class="work-authors"><strong>Haomin Qi</strong>, Yuyang Du, Lihao Zhang, Soung Chang Liew, Kexin Chen, Yining Du</div>
+      <div class="work-authors"><strong>H. Qi</strong>, Y. Du, L. Zhang, S. C. Liew, K. Chen, Yi. Du</div>
       <div class="work-actions">
         <a href="https://arxiv.org/abs/2507.15664" class="btn btn-arxiv" target="_blank" rel="noopener">ArXiv</a>
         <a href="https://github.com/yuyangdu01/LLM4DFT" class="btn btn-github" target="_blank" rel="noopener">GitHub</a>
@@ -89,11 +89,11 @@ I am also interested in applications of LLMs in education, engineering, and scie
   <!-- ABA-RAG -->
   <div class="work-item">
     <div class="work-thumb">
-      <img src="/images/aba-rag.jpg" alt="ABA-RAG teaser">
+      <img src="/images/2.jpg" alt="ABA-RAG teaser">
     </div>
     <div class="work-meta">
       <h3>Transforming ABA Therapy: An IoT-Guided, Retrieval-Augmented LLM Framework</h3>
-      <div class="work-authors"><strong>Haomin Qi</strong>, Chung-Ho Sin, Rosanna Yuen-Yan Chan, Victor Chun-Man Wong</div>
+      <div class="work-authors"><strong>H. Qi</strong>, C. H. Sin, Rosanna Y. Y. Chan, Victor C. M. Wong</div>
       <div class="work-actions">
         <a href="https://ieeexplore.ieee.org/document/11129621" class="btn btn-ieee" target="_blank" rel="noopener">IEEE Xplore</a>
         <a href="https://github.com/1314spb/IoT-RAG-ABA" class="btn btn-github" target="_blank" rel="noopener">GitHub</a>
