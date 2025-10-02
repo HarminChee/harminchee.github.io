@@ -57,15 +57,15 @@ I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.e
 
 ## Research Interests
 
-My research focuses on large language and vision-language models (LLMs/VLMs) and machine learning (ML) for systems. 
+My research focuses on LLM-assisted verification and system-aware ML for reliable reasoning and scalable engineering automation.
 
-- Accelerated inference and generation for LLMs and VLMs: efficient decoding (e.g., speculative and batched decoding), KV-cache management, quantization and distillation, routing/MoE scheduling, and systems-level optimizations that improve end-to-end latency–throughput–quality trade-offs under practical constraints.
+- Verification-in-the-loop (VITL) LLMs for reliable and efficient code work: code generation, checking, repair, and refactoring with a verifier that filters evidence, validates intermediate steps, and closes the loop via retrieval, generation, verification, revision and memory update; training signals shaped by verification to improve factual use and reduce hallucination.
 
-- Multimodal reasoning and efficient perception: robust grounding and alignment, retrieval-augmented perception, parameter-efficient adaptation for resource-limited settings, and evaluation protocols that stress long-context understanding and cross-modal consistency.
+- Automation for reliable reasoning at scale: scheduling, caching, and routing methods that co-optimize latency, throughput, and correctness in verifier-aware pipelines; parameter-efficient fine-tuning and scalable evaluation protocols for practical deployment; LLM-driven automation in engineering workflows such as EDA (e.g., RTL/DFT repair) and SDN configuration.
 
-- Machine learning for systems: leveraging ML to improve the correctness, efficiency, and automation of computing infrastructures. This includes areas such as network intelligence and topology-aware optimization, AI agents for managing complex system pipelines, and LLM-driven design automation in domains like electronic design automation (EDA).
+- Long-context and multimodal reasoning: attention-guided context compression, retrieval-augmented grounding, and memory mechanisms that surface implicit facts across long histories; efficient VLM reasoning that aligns text–vision evidence and preserves cross-modal consistency under limited compute.
 
-I am also interested in applications of LLMs in education, engineering, and scientific discovery.
+I am also interested in applications of LLMs in education and scientific discovery.
 
 ## Selected Work
 
