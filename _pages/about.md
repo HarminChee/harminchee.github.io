@@ -57,7 +57,7 @@ I am an M.S. student in [Electrical and Computer Engineering](https://ece.ucsd.e
 
 ## Research Interests
 
-My research focuses on LLM-assisted verification and system-aware ML for reliable reasoning and scalable engineering automation.
+My research focuses on LLM-assisted verification and LLM4Code for reliable reasoning and scalable engineering automation.
 
 - Verification-in-the-loop (VITL) LLMs for reliable and efficient code work: code generation, checking, repair, and refactoring with a verifier that filters evidence, validates intermediate steps, and closes the loop via retrieval, generation, verification, revision and memory update; training signals shaped by verification to improve factual use and reduce hallucination.
 
