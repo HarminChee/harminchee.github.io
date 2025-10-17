@@ -18,9 +18,8 @@ author_profile: true
 ---
 
 ### GraphCue for SDN Configuration Code Synthesis
-**Haomin Qi**, Fengfei Yu, Chengbo Huang 
+**Haomin Qi**, Fengfei Yu, Chengbo Huang  
 *Under review at IEEE Consumer Communications & Networking Conference 2026 (CCNC'26)*
-*Under review at the 27th International Symposium on Quality Electronic Design (ISQED'26)* 
 
 ---
 
