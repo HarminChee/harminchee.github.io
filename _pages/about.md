@@ -66,39 +66,42 @@ My research lies at the intersection of natural language processing and software
 - Multimodal inference: I explore methods for making LLM and VLM inference more efficient and reliable, including long-context handling, attention-guided context selection, and lightweight multimodal fusion for text–code–vision inputs. 
 
 
-## Selected Work
+## Publications
 
-<div class="work-list">
+### TopoEdge: An Edge-assisted LLM Framework for Automated SDN Configuration Generation
+**Haomin Qi**, Yuyang Du, Ziheng Kang, Yue Zhan, Soung Chang Liew  
+*Under review at The IEEE Wireless Communications and Networking Conference 2026 (IEEE WCNC 26’)*
 
-  <!-- VeriRAG -->
-  <div class="work-item">
-    <div class="work-thumb">
-      <img src="/images/1.jpg" alt="VeriRAG teaser">
-    </div>
-    <div class="work-meta">
-      <h3>VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair</h3>
-      <div class="work-authors"><strong>H. Qi</strong>, Y. Du, L. Zhang, S. C. Liew, K. Chen, Yi. Du</div>
-      <div class="work-actions">
-        <a href="https://arxiv.org/abs/2507.15664" class="btn btn-arxiv" target="_blank" rel="noopener">ArXiv</a>
-        <a href="https://github.com/yuyangdu01/LLM4DFT" class="btn btn-github" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-  </div>
+---
 
-  <!-- ABA-RAG -->
-  <div class="work-item">
-    <div class="work-thumb">
-      <img src="/images/2.jpg" alt="ABA-RAG teaser">
-    </div>
-    <div class="work-meta">
-      <h3>Transforming ABA Therapy: An IoT-Guided, Retrieval-Augmented LLM Framework</h3>
-      <div class="work-authors"><strong>H. Qi</strong>, C. H. Sin, Rosanna Y. Y. Chan, Victor C. M. Wong</div>
-      <div class="work-actions">
-        <a href="https://ieeexplore.ieee.org/document/11129621" class="btn btn-ieee" target="_blank" rel="noopener">IEEE Xplore</a>
-        <a href="https://github.com/1314spb/IoT-RAG-ABA" class="btn btn-github" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-  </div>
+### VeriRAG: A Retrieval-Augmented Framework for Automated RTL Testability Repair
+**Haomin Qi**, Yuyang Du, Lihao Zhang, Soung Chang Liew, Kexin Chen, Yining Du  
+*Under review at The 27th International Symposium on Quality Electronic Design (ISQED 26’)* [paper ↗](https://arxiv.org/abs/2507.15664){: .btn .btn--info .btn--small }
+
+---
+
+### Governance-Aware Hybrid Fine-Tuning for Multilingual Large Language Models
+**Haomin Qi**, Chengbo Huang, Zihan Dai, Yunkai Gao  
+*The 2025 IEEE International Conference on Big Data Workshop LLM4All (IEEE BigData 25’)*
+
+---
+
+### GraphCue for SDN Configuration Code Synthesis
+**Haomin Qi**, Fengfei Yu, Chengbo Huang  
+*IEEE Consumer Communications & Networking Conference 2026 (IEEE CCNC 26’ Poster)*
+
+---
+
+### Hybrid and Unitary PEFT for Resource-Efficient Large Language Models
+**Haomin Qi**, Zihan Dai, Chengbo Huang  
+*The American Journal of Computer Science and Technology (AJCST)* [paper ↗](https://arxiv.org/abs/2507.18076){: .btn .btn--info .btn--small }
+
+---
+
+### Transforming ABA Therapy: An IoT-Guided, Retrieval-Augmented LLM Framework
+**Haomin Qi**, Chung-Ho Sin, Rosanna Yuen-Yan Chan, Victor Chun-Man Wong  
+*IEEE Access Journal DOI: 10.1109/ACCESS.2025.3600316* [paper ↗](/files/ABA-RAG.pdf){: .btn .btn--info .btn--small }
+
 
 
 </div>
