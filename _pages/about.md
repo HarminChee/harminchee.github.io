@@ -50,6 +50,17 @@ redirect_from:
 .btn-arxiv:hover { background: #b91c1c !important; border-color: #b91c1c !important; }
 .btn-ieee:hover  { background: #1d4ed8 !important; border-color: #1d4ed8 !important; }
 .btn-github:hover{ background: #000 !important;    border-color: #000 !important; }
+
+  /* ========= 放大左侧头像（sidebar profile picture） ========= */
+.sidebar .author__avatar img {
+  width: 220px !important;   /* 控制头像显示尺寸：想更大就调这里 */
+  height: 220px !important;  /* 正方形，和你的头像比例匹配 */
+  border-radius: 10px !important;  /* 稍微圆角的方形，想完全方的就改成 0 */
+}
+
+.sidebar .author__avatar {
+  text-align: center;
+}
 </style>
 
 
