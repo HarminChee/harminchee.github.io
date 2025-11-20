@@ -4,7 +4,7 @@ site_theme               : "default" # "default" or "air"
 title                    : "Harmin's Homepage"
 title_separator          : "-"
 name                     : &name "Harmin(Haomin) Qi"
-description              : &description "M.S. student @ UC San Diego | Deep Learning, Computer Vision, LLMs"
+description              : &description "M.S. student @ UC San Diego"
 url                      : "https://harminchee.github.io"
 baseurl                  : ""
 repository               : "HarminChee/harminchee.github.io"
@@ -38,7 +38,7 @@ author:
   # Social media
   linkedin         : "harminchee"
   bluesky          :
-  twitter          : "https://x.com/HarminChee789"
+  twitter          : 
   zhihu            :
 
 # Publication Category
